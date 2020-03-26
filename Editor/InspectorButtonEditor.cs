@@ -1,3 +1,5 @@
+#if UNITY_EDITOR
+
 using System;
 using System.Reflection;
 using UnityEditor;
@@ -19,3 +21,5 @@ public class ObjectEditor : Editor {
     this.DrawDefaultInspector ();
   }
 }
+
+#endif
